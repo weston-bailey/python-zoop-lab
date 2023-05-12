@@ -30,7 +30,7 @@ Add the following methods:
 Create the following child class that derives from the base `Animal` class, adding properties and
 using method override when needed:
 
-* `Mammal` -- has a `fur_color` property that is printed out it's description
+* `Mammal` -- has a `fur_color` property that is printed out in it's description
 	* drinks milk when feeding
 	* walks when moving
 	* growls when making a sound
@@ -51,11 +51,11 @@ The `Zoo` class should have the following methods:
 
 Create additional child classes to populate your zoo!
 
-* `Bird` -- has a `wingspan` property that is printed out it's description
+* `Bird` -- has a `wingspan` property that is printed out in it's description
 	* drinks nectar when feeding
 	* flies when moving
 	* chirps when making a sound
-* `Reptile` -- has a `scale_color` property that is printed out it's description
+* `Reptile` -- has a `scale_color` property that is printed out in it's description
 	* eats insects when feeding
 	* slithers when moving
 	* hisses when making a sound
