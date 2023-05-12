@@ -68,7 +68,7 @@ Example code:
 zoo = Zoo()
 
 lion = Mammal("Simba", "Lion", 5, "male", "golden")
-snake = Reptile("Kaa", "Snake", 4, "female", "green")
+snake = Reptile("Kaa", "Snake", 4, "female", "green") # example bonus reptile
 
 lion.make_sound()
 # > Simba is making a sound
@@ -83,6 +83,6 @@ zoo.feed_animals()
 # > Kaa is eating insects
 ```
 
-Write similar code chunks to test your zoo and the various
+Write similar code chunks to test your zoo's methods and the various
 animals you create.
 
