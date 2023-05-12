@@ -27,7 +27,7 @@ Add the following methods:
 
 ### Extending the Base `Animal` Class
 
-Create the following child class that derive from the base `Animal` class, adding properties and
+Create the following child class that derives from the base `Animal` class, adding properties and
 using method override when needed:
 
 * `Mammal` -- has a `fur_color` property that is printed out it's description
