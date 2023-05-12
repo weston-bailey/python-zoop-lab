@@ -9,6 +9,8 @@ In this lab, you will be building a simulation of a virtual zoo using object-ori
 
 ## Instructions
 
+### Base `Animal` Class
+
 Create a base `Animal` class that has the following properties:
 
 * name
@@ -23,13 +25,32 @@ Add the following methods:
 * `make_sound` -- prints out `"< animal name > is making a sound"`
 * `move` -- prints out `"< animal name > is moving"`
 
-Create the following child classes, adding properties and
+### Extending the Base `Animal` Class
+
+Create the following child class that derive from the base `Animal` class, adding properties and
 using method override when needed:
 
 * `Mammal` -- has a `fur_color` property that is printed out it's description
 	* drinks milk when feeding
 	* walks when moving
 	* growls when making a sound
+
+Create a `Zoo` class with an `animals` property that is a list of all of the animals in the zoo. 
+
+### Creating a `Zoo` Class
+
+The `Zoo` class should have the following methods:
+
+* `add_animal` -- adds an animal to the list 
+* `display_animals` -- displays information for all animals
+* `feed_animals` -- feeds all animals
+* `listen_to_animals` -- listens to all the animals
+* `watch_animals` -- watches the animals more around
+
+### Bonus
+
+Create additional child classes to populate your zoo!
+
 * `Bird` -- has a `wingspan` property that is printed out it's description
 	* drinks nectar when feeding
 	* flies when moving
@@ -39,15 +60,7 @@ using method override when needed:
 	* slithers when moving
 	* hisses when making a sound
 
-create a `Zoo` class with an `animals` property that is a list of all of the animals in the zoo. 
-
-The zoo class should have the following methods:
-
-* `add_animal` -- adds an animal to the list 
-* `display_animals` -- displays information for all animals
-* `feed_animals` -- feeds all animals
-* `listen_to_animals` -- listens to all the animals
-* `watch_animals` -- watches the animals more around
+### Example Code
 
 Example code:
 
