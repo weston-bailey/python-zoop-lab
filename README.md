@@ -45,7 +45,7 @@ The `Zoo` class should have the following methods:
 * `display_animals` -- displays information for all animals
 * `feed_animals` -- feeds all animals
 * `listen_to_animals` -- listens to all the animals
-* `watch_animals` -- watches the animals more around
+* `watch_animals` -- watches the animals move around
 
 ### Bonus
 
